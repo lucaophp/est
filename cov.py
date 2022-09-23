@@ -3,7 +3,6 @@ import numpy as np
 from scipy.stats import pearsonr
 import matplotlib.pyplot as plt
 
-np.random.seed(1)
 data1 = 20 * np.random.randn(1000) +10
 data2 = data1 + (10 * np.random.randn(1000) + 50)
 
